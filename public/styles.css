@@ -1,0 +1,96 @@
+body {
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffe6; /*pale yellow*/
+  padding: 30px;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+body, input, button {
+  font-family: 'Walter Turncoat', sans-serif;
+  color: #1f601f; /*dark green*/
+  font-size: 1.5rem;
+}
+
+h1 {
+  margin: 0 auto;
+}
+
+button {
+  border: 1px solid black;
+  border-radius: 5px;
+  background-color: #ffffcc; /*light yellow variant*/
+  margin-top: 5px;
+}
+
+button:hover {
+  background-color: #339933; /*medium green*/
+  color: #ffffe6;
+}
+
+.newitem {
+  padding-left: 5px;
+  border: 1px solid black;
+  border-radius: 5px;
+  margin: 5px;
+  width: 100%;
+}
+
+.cart {
+  display: flex;
+  flex-direction: column-reverse;
+  margin: 0 auto;
+  align-items: center;
+}
+
+.cartlink {
+  margin: 0 auto;
+}
+
+.cartlink:visited {
+  color: brown;
+}
+
+.cartlink:hover {
+  color: #339933;
+}
+
+a:visited {
+  color: brown;
+}
+
+a:hover {
+  color: #339933; /*medium green*/
+}
+
+section {
+  padding: 8px;
+  border: 1px solid black;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+}
+
+.x {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.itemform {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  padding: 10px;
+  margin: 2px;
+}
+
+.cards {
+  margin: 5px;
+}
