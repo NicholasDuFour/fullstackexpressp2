@@ -5,7 +5,7 @@
   "main": "server.js",
   "dependencies": {
     "minimist": "^1.2.5",
-    "nodemon": "^1.17.5",
+    "nodemon": "^2.0.4",
     "pg": "^7.4.3"
   },
   "devDependencies": {
